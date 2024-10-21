@@ -1,0 +1,4 @@
+SELECT Measures.[Sales Amount] ON COLUMNS,
+{ TOPSUM([Customer - City].Geography.City.MEMBERS, 250000,
+Measures.[Sales Amount]),[Customer - City].Geography.[All] } ON ROWS
+FROM Sales

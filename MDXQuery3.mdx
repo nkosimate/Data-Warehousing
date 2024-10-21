@@ -1,0 +1,4 @@
+WITH SET TopFiveProducts AS
+TOPCOUNT ( [Product].[Categoreis].[Product Key].MEMBERS, 5, Measures.[Sales Amount] )
+SELECT Measures.MEMBERS ON COLUMNS, TopFiveProducts ON ROWS
+FROM Sales

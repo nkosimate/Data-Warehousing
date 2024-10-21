@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SouthwindDimModel", "SouthwindDimModel.dwproj", "{52B3C15E-A93C-4526-81F7-8228FF47D828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52B3C15E-A93C-4526-81F7-8228FF47D828}.Development|Default.ActiveCfg = Development
+		{52B3C15E-A93C-4526-81F7-8228FF47D828}.Development|Default.Build.0 = Development
+		{52B3C15E-A93C-4526-81F7-8228FF47D828}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E80E91C5-D825-48C3-9081-6BA8D182239C}
+	EndGlobalSection
+EndGlobal

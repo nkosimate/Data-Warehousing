@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.Southwind"
+  DTS:DTSID="{C0BD932D-033B-426A-B1CA-DEA20575F7BE}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=Southwind;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Integration Services Project Coursework-{C0BD932D-033B-426A-B1CA-DEA20575F7BE}LocalHost.Southwind;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

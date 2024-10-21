@@ -1,0 +1,5 @@
+WITH MEMBER Measures.[Previous Year] AS
+(Measures.[Sales Amount], PARALLELPERIOD([Order Date].Calendar.Quarter, 4))
+SELECT { [Sales Amount], [Previous Year] } ON COLUMNS,
+[Order Date].Calendar.Quarter ON ROWS
+FROM Sales

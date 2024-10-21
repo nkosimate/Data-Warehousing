@@ -1,0 +1,4 @@
+SELECT Measures.MEMBERS ON COLUMNS,
+ORDER([Customer - City].Geography.Country.MEMBERS,
+Measures.[Sales Amount],BASC) ON ROWS
+FROM Sales

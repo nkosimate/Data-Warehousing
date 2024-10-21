@@ -1,0 +1,5 @@
+SELECT Product.Categoreis.MEMBERS ON COLUMNS,
+CROSSJOIN([Customer - City].Country.MEMBERS,
+[Order Date].Calendar.Quarter.MEMBERS) ON ROWS
+FROM Sales
+WHERE Measures.[Sales Amount]
